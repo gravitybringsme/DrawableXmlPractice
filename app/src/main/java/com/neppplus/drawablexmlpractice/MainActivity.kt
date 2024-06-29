@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
             toastBtn = defaultActionBar.customView.findViewById(R.id.toastBtn)
             
             toastBtn.setOnClickListener {
-                Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "test", Toast.LENGTH_SHORT).show()
             }
         }
     }
